@@ -9,16 +9,12 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   </head>
   <body>
-    <div id="vue-app">
-      <h1>{{greet('night')}}</h1>
-      <p>Name: {{name}}</p>
-      <p>Job: {{job}}</p>
-
-      <h1>Data Binding</h1>
-      <a v-bind:href="website">Yahoo!</a>
-      <a :href="website">Yahoo!</a>
-      <input type="text" v-bind:value="job" />
-      <p v-html="websiteTag"></p>
+    <div id="app">
+      <h1>data</h1>
+      <p>
+        <!-- TODO ここにdataプロパティを表示してみよう -->
+        {{test}}
+      </p>
     </div>
     <script src="./app.js"></script>
   </body>
